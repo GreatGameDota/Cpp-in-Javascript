@@ -6,9 +6,9 @@
 
 #### [Installation](https://github.com/nodejs/node-gyp#installation)
 
-I recommend just running `npm install --global --production windows-build-tools`  
+I recommend just running `npm install --global --production windows-build-tools` in a command prompt ran as Administrator
 
-Once everything is installed clone the addon.cc and binding.gyp files and run
+Once everything is installed clone the `addon.cc` and `binding.gyp` files and run
 
 ```bash
 node-gyp configure build
