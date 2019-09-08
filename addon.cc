@@ -5,7 +5,7 @@ void Sum(const v8::FunctionCallbackInfo<v8::Value> &args)
   v8::Isolate *isolate = args.GetIsolate();
   int i;
   double a = 3.14, b = 2.718;
-  for (int i = 0; i < 10000000; i++)
+  for (int i = 0; i < 1000000000; i++)
   {
     a += b;
   }
